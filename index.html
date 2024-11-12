@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #db96c7; 
+            color: black; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .topbar {
+            background-color: #db6464;
+            padding: 10px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 50px;
+        }
+        .logo {
+            position: absolute;
+            left: 10px;
+            height: 40px; /* Высота логотипа */
+        }
+        .topbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+        }
+        .topbar a.active {
+            background-color: #FF3A1C;
+            border-radius: 4px;
+        }
+        .content {
+            margin-top: 60px; 
+            text-align: center;
+            max-width: 800px;
+            padding: 20px;
+        }
+        .centered-image {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="topbar">
+    <img src="logo.png" alt="Логотип" class="logo">
+    <a href="index.html" class="active">Головна</a>
+    <a href="page2.html">iScream</a>
+    <a href="page3.html">Polaczyk</a>
+    <a href="page4.html">Caipi</a>
+    <a href="page5.html">First</a>
+    <a href="page6.html">Oru Kayak</a>
+    <a href="page7.html">Oru Canoe</a>
+    <a href="page8.html">Рух на каяку</a>
+    <a href="page9.html">Тримання балансу</a>
+    <a href="page10.html">gif анімація</a>
+</div>
+
+<div class="content">
+    <h1>Вітаю на сайті про човни</h1>
+    <p>На цьому веб-сайті зображені різні види човнів, а також човни у русі</p>
+ 
+    <img src="motion_in_water.png" alt="Описание изображения" class="centered-image">
+  <p>На зображенні показано вигляд човна під час плавання у річних порогах</p>
+</div>
+
+</body>
+</html>
